@@ -50,7 +50,7 @@ df.drop(("Day"), axis=1, inplace=True)
 df.drop(("Hour"), axis=1, inplace=True)
 df.drop(("Minute"), axis=1, inplace=True)
 #Download the new dataframe
-export_csv = df.to_csv ('C:\Users\Hogar\Desktop\dataset2017.csv', index = True, header = True) 
+export_csv = df.to_csv ('rC:\Users\Hogar\Desktop\dataset2017.csv', index = True, header = True) 
 #Don't forget to add '.csv' at the end of the path
 
 
