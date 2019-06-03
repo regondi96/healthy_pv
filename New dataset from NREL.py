@@ -10,7 +10,7 @@ from IPython.display import display
 # So, the lat and the lon are 16,-93.
 lat, lon, year = 16.7577, -93.1299, 2017
 # You must request an NSRDB api key from the link above
-api_key = 'uvKAIKNaSEgiBRByQbdz6TQ2JszAVol3xcvPygtC'
+api_key = 'YOURAPIKEY'
 # Set the attributes to extract (e.g., dhi, ghi, etc.), separated by commas.
 attributes = 'clearsky_ghi,clearsky_dhi,clearsky_dni,cloud_type,ghi,dhi,dni,wind_speed,wind_direction,air_temperature,solar_zenith_angle'
 # Choose year of data
